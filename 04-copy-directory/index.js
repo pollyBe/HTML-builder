@@ -19,7 +19,7 @@ const copyDir = async () => {
       }),
     );
 
-    console.log('Copying was successful.');
+    console.log('Done');
   } catch (err) {
     console.error('Copy error:', err);
   }
